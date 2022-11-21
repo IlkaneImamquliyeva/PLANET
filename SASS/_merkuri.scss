@@ -1,0 +1,35 @@
+.DF {
+    @include DF();
+
+    .container-1 {
+        @include container();
+        top: 280px;
+        left: 595px;
+        width: 140px;
+        height: 140px;
+        animation: merkuri 5s linear infinite;
+
+        @keyframes merkuri {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .merkuri {
+            position: absolute;
+            top: 15%;
+            width: 25px;
+            height: 25px;
+            background-image: url(../imgs/merkuri.png);
+            background-size: cover;
+            border-radius: 50%;
+
+        }
+
+    }
+
+}

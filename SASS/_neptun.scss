@@ -1,0 +1,37 @@
+.DF {
+    @include DF();
+
+
+    .container-8 {
+        @include container();
+
+        top: 65px;
+        left: 387px;
+        width: 560px;
+        height: 560px;
+
+        animation: neptun 110s linear infinite;
+
+        @keyframes neptun {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .neptun {
+            position: absolute;
+            top: 31%;
+            width: 25px;
+            height: 25px;
+            background-image: url(../imgs/neptun.png);
+            background-size: cover;
+            border-radius: 50%;
+        }
+
+    }
+
+}

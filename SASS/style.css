@@ -1,0 +1,530 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.DF {
+  height: 100vh;
+  background-color: #2e2350;
+  position: relative;
+}
+
+.DF .gunes {
+  position: absolute;
+  top: 49%;
+  left: 47%;
+  width: 65px;
+  height: 65px;
+  background-image: url(../imgs/ggg.jpg);
+  background-size: contain;
+  border-radius: 50%;
+}
+
+.DF {
+  height: 100vh;
+  background-color: #2e2350;
+  position: relative;
+}
+
+.DF .container-1 {
+  position: relative;
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid #707070;
+  top: 280px;
+  left: 595px;
+  width: 140px;
+  height: 140px;
+  -webkit-animation: merkuri 5s linear infinite;
+          animation: merkuri 5s linear infinite;
+}
+
+@-webkit-keyframes merkuri {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes merkuri {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.DF .container-1 .merkuri {
+  position: absolute;
+  top: 15%;
+  width: 25px;
+  height: 25px;
+  background-image: url(../imgs/merkuri.png);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.DF {
+  height: 100vh;
+  background-color: #2e2350;
+  position: relative;
+}
+
+.DF .container-2 {
+  position: relative;
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid #707070;
+  top: 253px;
+  left: 567px;
+  width: 200px;
+  height: 200px;
+  -webkit-animation: venera 7s linear infinite;
+          animation: venera 7s linear infinite;
+}
+
+@-webkit-keyframes venera {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes venera {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.DF .container-2 .venera {
+  position: absolute;
+  top: 19%;
+  width: 25px;
+  height: 25px;
+  background-image: url(../imgs/venera.png);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.DF {
+  height: 100vh;
+  background-color: #2e2350;
+  position: relative;
+}
+
+.DF .container-3 {
+  position: relative;
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid #707070;
+  top: 220px;
+  left: 536px;
+  width: 260px;
+  height: 260px;
+  -webkit-animation: yer 9s linear infinite;
+          animation: yer 9s linear infinite;
+}
+
+@-webkit-keyframes yer {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes yer {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.DF .container-3 .yer {
+  position: absolute;
+  top: 22%;
+  width: 25px;
+  height: 25px;
+  background-image: url(../imgs/yer.png);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.DF {
+  height: 100vh;
+  background-color: #2e2350;
+  position: relative;
+}
+
+.DF .container-4 {
+  position: relative;
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid #707070;
+  top: 187px;
+  left: 506px;
+  width: 320px;
+  height: 320px;
+  -webkit-animation: mars 20s linear infinite;
+          animation: mars 20s linear infinite;
+}
+
+@-webkit-keyframes mars {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes mars {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.DF .container-4 .mars {
+  position: absolute;
+  top: 25%;
+  width: 25px;
+  height: 25px;
+  background-image: url(../imgs/mars2.png);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.DF {
+  height: 100vh;
+  background-color: #2e2350;
+  position: relative;
+}
+
+.DF .container-5 {
+  position: relative;
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid #707070;
+  top: 156px;
+  left: 478px;
+  width: 380px;
+  height: 380px;
+  -webkit-animation: yupiter 33s linear infinite;
+          animation: yupiter 33s linear infinite;
+}
+
+@-webkit-keyframes yupiter {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes yupiter {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.DF .container-5 .yupiter {
+  position: absolute;
+  top: 28%;
+  width: 25px;
+  height: 25px;
+  background-image: url(../imgs/yupiter2.png);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.DF {
+  height: 100vh;
+  background-color: #2e2350;
+  position: relative;
+}
+
+.DF .container-6 {
+  position: relative;
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid #707070;
+  top: 126px;
+  left: 448px;
+  width: 440px;
+  height: 440px;
+  -webkit-animation: saturun 55s linear infinite;
+          animation: saturun 55s linear infinite;
+}
+
+@-webkit-keyframes saturun {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes saturun {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.DF .container-6 .saturun {
+  position: absolute;
+  top: 30%;
+  width: 25px;
+  height: 25px;
+  background-image: url(../imgs/saturun3.png);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.DF {
+  height: 100vh;
+  background-color: #2e2350;
+  position: relative;
+}
+
+.DF .container-7 {
+  position: relative;
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid #707070;
+  top: 95px;
+  left: 418px;
+  width: 500px;
+  height: 500px;
+  -webkit-animation: uran 80s linear infinite;
+          animation: uran 80s linear infinite;
+}
+
+@-webkit-keyframes uran {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes uran {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.DF .container-7 .uran {
+  position: absolute;
+  top: 31%;
+  width: 25px;
+  height: 25px;
+  background-image: url(../imgs/uran2.png);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.DF {
+  height: 100vh;
+  background-color: #2e2350;
+  position: relative;
+}
+
+.DF .container-8 {
+  position: relative;
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid #707070;
+  top: 65px;
+  left: 387px;
+  width: 560px;
+  height: 560px;
+  -webkit-animation: neptun 110s linear infinite;
+          animation: neptun 110s linear infinite;
+}
+
+@-webkit-keyframes neptun {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes neptun {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.DF .container-8 .neptun {
+  position: absolute;
+  top: 31%;
+  width: 25px;
+  height: 25px;
+  background-image: url(../imgs/neptun.png);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.DF {
+  height: 100vh;
+  background-color: #2e2350;
+  position: relative;
+}
+
+.DF .container-9 {
+  position: relative;
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid #707070;
+  top: 33px;
+  left: 356px;
+  width: 620px;
+  height: 620px;
+  -webkit-animation: pluton 180s linear infinite;
+          animation: pluton 180s linear infinite;
+}
+
+@-webkit-keyframes pluton {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes pluton {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.DF .container-9 .pluton {
+  position: absolute;
+  top: 34%;
+  width: 25px;
+  height: 25px;
+  background-image: url(../imgs/pluton2.png);
+  background-size: cover;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */

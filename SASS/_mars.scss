@@ -1,0 +1,35 @@
+.DF {
+    @include DF();
+
+
+    .container-4 {
+        @include container();
+        top: 187px;
+        left: 506px;
+        width: 320px;
+        height: 320px;
+        animation: mars 20s linear infinite;
+
+        @keyframes mars {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .mars {
+            position: absolute;
+            top: 25%;
+            width: 25px;
+            height: 25px;
+            background-image: url(../imgs/mars2.png);
+            background-size: cover;
+            border-radius: 50%;
+        }
+
+    }
+
+}

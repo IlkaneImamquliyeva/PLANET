@@ -1,0 +1,38 @@
+.DF {
+    @include DF();
+
+
+    .container-3 {
+        @include container();
+        top: 220px;
+        left: 536px;
+        width: 260px;
+        height: 260px;
+
+        animation: yer 9s linear infinite;
+
+        @keyframes yer {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .yer {
+            position: absolute;
+            top: 22%;
+            width: 25px;
+            height: 25px;
+            background-image: url(../imgs/yer.png);
+            background-size: cover;
+            border-radius: 50%;
+
+
+        }
+
+
+    }
+}

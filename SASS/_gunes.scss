@@ -1,0 +1,16 @@
+.DF {
+    @include DF();
+
+    .gunes {
+        position: absolute;
+        top: 49%;
+        left: 47%;
+        width: 65px;
+        height: 65px;
+        background-image: url(../imgs/ggg.jpg);
+        background-size: contain;
+        border-radius: 50%;
+
+    }
+
+}

@@ -1,0 +1,13 @@
+@mixin DF {
+    height: 100vh;
+    background-color: rgb(46, 35, 80);
+    position: relative;
+}
+
+@mixin container {
+    position: relative;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid rgb(112, 112, 112);
+
+}

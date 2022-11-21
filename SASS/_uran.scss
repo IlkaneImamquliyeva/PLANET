@@ -1,0 +1,36 @@
+.DF {
+    @include DF();
+
+
+    .container-7 {
+        @include container();
+
+        top: 95px;
+        left: 418px;
+        width: 500px;
+        height: 500px;
+        animation: uran 80s linear infinite;
+
+        @keyframes uran {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .uran {
+            position: absolute;
+            top: 31%;
+            width: 25px;
+            height: 25px;
+            background-image: url(../imgs/uran2.png);
+            background-size: cover;
+            border-radius: 50%;
+        }
+
+    }
+
+}

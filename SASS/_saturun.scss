@@ -1,0 +1,36 @@
+.DF {
+    @include DF();
+
+
+    .container-6 {
+        @include container();
+
+        top: 126px;
+        left: 448px;
+        width: 440px;
+        height: 440px;
+        animation: saturun 55s linear infinite;
+
+        @keyframes saturun {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .saturun {
+            position: absolute;
+            top: 30%;
+            width: 25px;
+            height: 25px;
+            background-image: url(../imgs/saturun3.png);
+            background-size: cover;
+            border-radius: 50%;
+        }
+
+    }
+
+}

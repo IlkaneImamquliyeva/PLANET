@@ -1,0 +1,36 @@
+.DF {
+    @include DF();
+
+
+    .container-5 {
+        @include container();
+
+        top: 156px;
+        left: 478px;
+        width: 380px;
+        height: 380px;
+        animation: yupiter 33s linear infinite;
+
+        @keyframes yupiter {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .yupiter {
+            position: absolute;
+            top: 28%;
+            width: 25px;
+            height: 25px;
+            background-image: url(../imgs/yupiter2.png);
+            background-size: cover;
+            border-radius: 50%;
+        }
+
+    }
+
+}
